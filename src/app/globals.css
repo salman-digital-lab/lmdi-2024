@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel-fix > :first-child {
+  overflow-x: auto;
+}
+
+.rendered-description p {
+  margin: 1rem 0rem;
+}
